@@ -1,0 +1,167 @@
+html,
+body {
+  font-family: Poppins;
+}
+
+.navbar.navbar-expand-md {
+  background-color: rgb(0 0 0 / 50%) !important;
+  transition: 0.4s ease-in-out;
+}
+.navbar.navbar-expand-md:hover {
+  background: rgb(0 0 0 / 85%) !important;
+}
+.navbar-brand {
+  font-weight: 600;
+  color: #fff212;
+}
+/* If the screen size is 601px wide or more, set the font-size of navbarbrand to 80px */
+@media screen and (min-width: 601px) {
+  .navbar-brand {
+    font-size: 28px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of navbarbrand to 30px */
+@media screen and (max-width: 600px) {
+  .navbar-brand {
+    font-size: 18px;
+  }
+}
+.headingpart1 {
+  color: #ffffff;
+  text-align: left;
+}
+
+.headingpart2 {
+  text-transform: uppercase;
+  color: #fff212;
+  font-weight: 700;
+}
+.headingpart3 {
+  color: #ffffff;
+}
+/* If the screen size is 601px wide or more, set the font-size of headingpart1 to 54px */
+@media screen and (min-width: 601px) {
+  .headingpart1 {
+    font-size: 54px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of headingpart1 to 38px */
+@media screen and (max-width: 600px) {
+  .headingpart1 {
+    font-size: 35px;
+  }
+}
+/* If the screen size is 601px wide or more, set the font-size of headingpart2 to 109px */
+@media screen and (min-width: 601px) {
+  .headingpart2 {
+    font-size: 109px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of headingpart2 to 48px */
+@media screen and (max-width: 600px) {
+  .headingpart2 {
+    font-size: 45px;
+  }
+}
+/* If the screen size is 601px wide or more, set the font-size of headingpart3 to 36px */
+@media screen and (min-width: 601px) {
+  .headingpart3 {
+    font-size: 36px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of headingpart3 to 28px */
+@media screen and (max-width: 600px) {
+  .headingpart3 {
+    font-size: 26px;
+  }
+}
+
+/* If the screen size is 601px wide or more, set the width of bannerheading to 35rem */
+@media screen and (min-width: 601px) {
+  .bannerheading {
+    width: 35rem;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the width of bannerheading to 100% */
+@media screen and (max-width: 600px) {
+  .bannerheading {
+    width: 100%;
+  }
+}
+
+/* If the screen size is 601px wide or more, set the position of banner to absolute top 50% */
+@media screen and (min-width: 601px) {
+  .banner {
+    position: absolute;
+    top: 50%;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the position of banner to absolute top 20% */
+@media screen and (max-width: 600px) {
+  .banner {
+    position: absolute;
+    top: 17%;
+  }
+}
+
+/* If the screen size is 601px wide or more, set the position of banner to absolute top 50% */
+@media screen and (min-width: 601px) {
+  .col1,
+  .col2 {
+    padding: 75px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the position of banner to absolute top 20% */
+@media screen and (max-width: 600px) {
+  .col1,
+  .col2 {
+    padding: 30px;
+  }
+  .col {
+    flex: 0 0 auto;
+  }
+}
+/*************Buttons***************/
+.button {
+  background-color: #ffffff;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  color: black;
+  background-color: #e7e7e7;
+}
+
+.button:hover {
+  background-color: #fff212;
+}
+.button5 {
+  background-color: #fff212;
+  padding: 18px 50px;
+  font-weight: 600;
+  border: 0;
+}
+hr {
+  border: 1px;
+  color: #000000;
+}
+.socialmediaicon {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+}
